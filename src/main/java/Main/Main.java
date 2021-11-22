@@ -6,6 +6,7 @@
 package Main;
 
 import JFRame.Login;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 
 /**
  *
@@ -19,8 +20,9 @@ public class Main {
     public static void main(String[] args) {
         //Crée le JFrame Login.
         Login Frame = new Login();
+        String s = "Bonjour";
         //Affiche le JFrame.
-        Frame.setVisible(true);    
+        Frame.setVisible(true);
     }
     
 }
